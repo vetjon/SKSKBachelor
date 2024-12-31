@@ -21,7 +21,7 @@ Dette programmet simulerer en maritim overvåkingssituasjon der en båt, støtte
   - `pygame`
   - `matplotlib`
   - `numpy`
-  - 'random'
+  - `random`
 
 ### **Trinn for installasjon**
 1. Klon prosjektet:
