@@ -36,10 +36,13 @@ Programmene simulerer en maritim overvåkingssituasjon der en båt, støttet av 
    pip install -r requirements.txt
 
 ### Generelt
-Simuleringen består av en ubåt, et fartøy, og droner som opererer ut fra fartøyet. Oppførselen til de forskjellige enhetene er forskjellig i hvert program. Dette vil beskrive nærmere senere. Hvert program simuleres 1000 ganger før det produserer flere data/resultater:
-  - Kakediagram over 
+Simuleringen består av en ubåt, et fartøy, og droner som opererer ut fra fartøyet. Alle simuleringene avsluttes enten når ubåten blir detektert, eller om ubåten for fartøyet innenfor sin torpedorekkevidde. Oppførselen til de forskjellige enhetene er forskjellig i hvert program. Dette vil beskrive nærmere senere. Hvert program simuleres 1000 ganger før det produserer flere data/resultater:
+  - Kakediagram over hvor mange av simuleringene som ender i deteksjon, eller at ubåten for fartøyet innenfor sin torpedorekkevidde
+  - Et linjediagram over avstand mellom ubåten og fartøyet ved simuleringsslutt
+  - Et heatmap over hvor ubåten var i forhold til fartøyet ved simuleringsslutt
 
 
 #### Spinning.py
-  Dette programmet ble brukt for å simulere et fartøy med droner rundt hele fartyøet i en skjerm. Viktige parametere i dette programmet er:
-    - 
+  Dette programmet ble brukt for å simulere et fartøy med droner rundt hele fartyøet i en skjerm. Viktige parametere som ble justert i dette programmet er: 
+  - Antall droner
+  - 
