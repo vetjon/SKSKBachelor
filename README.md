@@ -16,11 +16,12 @@ Dette programmet simulerer en maritim overvåkingssituasjon der en båt, støtte
 
 ## **Installasjon**
 ### **Krav**
-- Python 3.x
+- Python 3.13
 - Følgende Python-biblioteker:
   - `pygame`
   - `matplotlib`
   - `numpy`
+  - 'random'
 
 ### **Trinn for installasjon**
 1. Klon prosjektet:
