@@ -3,7 +3,7 @@
 # **Drone Detection Simulation**
 
 ## **Beskrivelse**
-Dette programmet simulerer en maritim overvåkingssituasjon der en båt, støttet av droner, forsøker å oppdage en ubåt. Det inkluderer simulering av bevegelser, deteksjon ved hjelp av sonar, og visualisering av resultater som varmekart, kakediagrammer og linjediagrammer.
+Programmene simulerer en maritim overvåkingssituasjon der en båt, støttet av droner, forsøker å oppdage en ubåt. Det inkluderer simulering av bevegelser, deteksjon ved hjelp av sonar, og visualisering av resultater som varmekart, kakediagrammer og linjediagrammer.
 
 ## **Funksjoner**
 - Simulering av bevegelser for båt, droner og ubåt.
@@ -27,7 +27,10 @@ Dette programmet simulerer en maritim overvåkingssituasjon der en båt, støtte
 1. Klon prosjektet:
    ```bash
    git clone https://github.com/vetjon/SKSKBachelor.git
-   cd drone-detection
+   cd SKSKBachelor
+2. Installer requirements:
+   ```bash
+   pip install -r requirements.txt
 
 
 Spinning.py
