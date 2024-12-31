@@ -1,6 +1,9 @@
 # SKSKBachelor
 
 # **Drone Detection Simulation**
+Om du har spørsmål om programmet kan du kontakte Vetle Andre Jonhaugen på:
+  Mail: vetjon@outlook.com  
+  Telefon: 45 87 40 96
 
 ## **Beskrivelse**
 Programmene simulerer en maritim overvåkingssituasjon der en båt, støttet av droner, forsøker å oppdage en ubåt. Det inkluderer simulering av bevegelser, deteksjon ved hjelp av sonar, og visualisering av resultater som varmekart, kakediagrammer og linjediagrammer.
@@ -31,6 +34,9 @@ Programmene simulerer en maritim overvåkingssituasjon der en båt, støttet av 
 2. Installer requirements:
    ```bash
    pip install -r requirements.txt
+
+### Generelt
+Simuleringen består av en ubåt, et fartøy, og droner som opererer ut fra fartøyet. Oppførselen til de forskjellige enhetene er forskjellig i hvert program. Dette vil beskrive nærmere senere.
 
 
 ### Spinning.py
