@@ -26,7 +26,7 @@ Dette programmet simulerer en maritim overvåkingssituasjon der en båt, støtte
 ### **Trinn for installasjon**
 1. Klon prosjektet:
    ```bash
-   git clone https://github.com/ditt-repo/drone-detection.git
+   git clone https://github.com/vetjon/SKSKBachelor.git
    cd drone-detection
 
 
