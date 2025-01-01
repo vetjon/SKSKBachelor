@@ -49,6 +49,5 @@ Simuleringen består av en ubåt, et fartøy, og droner som opererer ut fra fart
   - DETECTION_INTERVAL
   - angular_speed
 
-  Npåe
-  erer
+  NUM_DRONES justerer antall droner i skjermen. DETECTION_INTERVAL justerer hvor lenge det går mellom hver gang dronene detekterer. angular_speed beveger dronene til en ny posisjon hver frame. Dette ble brukt for å plassere dronene slik at den nye posisjonen
   
