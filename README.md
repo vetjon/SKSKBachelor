@@ -48,5 +48,7 @@ Simuleringen består av en ubåt, et fartøy, og droner som opererer ut fra fart
   - NUM_DRONES
   - DETECTION_INTERVAL
   - angular_speed
-  Hei
+
+  Npåe
+  erer
   
