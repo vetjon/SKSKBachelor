@@ -44,5 +44,10 @@ Simuleringen består av en ubåt, et fartøy, og droner som opererer ut fra fart
 
 #### Spinning.py
   Dette programmet ble brukt for å simulere et fartøy med droner rundt hele fartyøet i en skjerm. Viktige parametere som ble justert i dette programmet er: 
-  - Antall droner
-  - 
+  
+  - NUM_DRONES
+      Ble brukt til å justere antall droner i skjermen
+  - DETECTION_INTERVAL
+  - angular_speed
+
+  
