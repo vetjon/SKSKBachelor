@@ -43,11 +43,22 @@ Simuleringen består av en ubåt, et fartøy, og droner som opererer ut fra fart
 
 
 #### Spinning.py
-  Dette programmet ble brukt for å simulere et fartøy med droner rundt hele fartyøet i en skjerm. Viktige parametere som ble justert i dette programmet er: 
+  Dette programmet ble brukt for å simulere et fartøy i ro med droner rundt hele fartyøet i en skjerm. Viktige parametere som ble justert i dette programmet er: 
   
   - NUM_DRONES
   - DETECTION_INTERVAL
   - angular_speed
 
-  NUM_DRONES justerer antall droner i skjermen. DETECTION_INTERVAL justerer hvor lenge det går mellom hver gang dronene detekterer. angular_speed beveger dronene til en ny posisjon hver frame. Dette ble brukt for å plassere dronene slik at den nye posisjonen
-  
+  NUM_DRONES justerer antall droner i skjermen. DETECTION_INTERVAL justerer hvor lenge det går mellom hver gang dronene detekterer. angular_speed beveger dronene til en ny posisjon hver frame. Dette ble brukt for å plassere dronene slik at den nye posisjonen der det nye settet med droner posisjoneres i før neste deteksjon.
+
+  Programmet ble også brukt til å simulere et enkelt helikopter i skjerm rundt et fartøy i ro. NUM_DRONES ble satt til 1 og fart og deteksjonsintervall ble satt ut fra hvor langt helikopteret skulle fly mellom hvert dypp.
+
+#### Drone_in_front.py
+Dette programmet ble brukt for å simulere en droneskjerm for et fartøy i bevegelse. Endringer som er gjort for dette programmet er at både fartøyet og ubåten er i bevegelse. Droneskjermen er tettere på fartøyet, siden de må gjøre opp for bevegelsen til fartøyet. De viktigste parameterne som ble justert til forskjellige tester er:
+
+- NUM_DRONES
+- angle_offset
+
+Som tidligere blir NUM_DRONES brukt til å bestemme antall droner i skjermen. Disse blir fordelt med likt mellomrom utover skjermen, basert på hvor stor angle_offset som er valgt. angle_offset bestemmer hvor stor vinkel framfor fartøyet dronene plasseres. Om dette settes til (-90, 90) betyr det at dronene fordeles fra 90 grader styrbord til 90 grader babord.
+
+#### Heli_sim
