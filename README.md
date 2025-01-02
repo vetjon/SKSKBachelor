@@ -43,7 +43,7 @@ Simuleringen består av en ubåt, et fartøy, og droner som opererer ut fra fart
 
 
 #### Spinning.py
-  Dette programmet ble brukt for å simulere et fartøy i ro med droner rundt hele fartyøet i en skjerm. Viktige parametere som ble justert i dette programmet er: 
+  Dette programmet brukes for å simulere et fartøy i ro med droner rundt hele fartyøet i en skjerm. Viktige parametere som ble justert i dette programmet er: 
   
   - NUM_DRONES
   - DETECTION_INTERVAL
@@ -61,4 +61,12 @@ Dette programmet ble brukt for å simulere en droneskjerm for et fartøy i beveg
 
 Som tidligere blir NUM_DRONES brukt til å bestemme antall droner i skjermen. Disse blir fordelt med likt mellomrom utover skjermen, basert på hvor stor angle_offset som er valgt. angle_offset bestemmer hvor stor vinkel framfor fartøyet dronene plasseres. Om dette settes til (-90, 90) betyr det at dronene fordeles fra 90 grader styrbord til 90 grader babord.
 
-#### Heli_sim
+#### Heli_sim.py
+Dette programmet brukes til å simulere et helikopter i skjerm for et fartøy i bevegelse. Forskjellen mellom dette programmet og de andre er at helikopteret patruljerer fremfor fartøyet på en utvalgt radius og vinkel foran fartøyet.
+
+- SCREEN_RADIUS
+- start_angle
+- end_angle
+
+SCREEN_RADIUS ble brukt for å bestemme hvor langt fremfor fartøyet helikopteret patruljerer. start_angle og end_angle bestemmer hvor langt til hver side av fartøyet helikopteret patruljerer. Om start_angle og end_angle er henholdsvis -30 og 30 grader, vil helikopteret patruljere mellom 30 grader styrbord og babord.
+
